@@ -1,0 +1,33 @@
+// Smattering of http requets for testing the api.
+
+@base = http://localhost:3000
+#@base = https://rec-room.io
+
+###
+GET {{base}}
+
+###
+GET {{base}}/hello
+
+###
+GET {{base}}/bye
+
+###
+GET {{base}}/hello/bye
+
+###
+GET {{base}}/hello/bye/314512
+
+###
+GET {{base}}/contacts/235412
+
+###
+GET {{base}}/contacts
+
+###
+POST {{base}}/contacts
+
+{"Name":"John"}
+
+###
+GET {{base}}/cf_recipes/aggregating
