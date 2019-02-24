@@ -1,4 +1,4 @@
-module Aggregating
+module AggregatingMultRequests
 // FSharp implementation of the Aggegating Multiple Requests recipe.
 // https://developers.cloudflare.com/workers/recipes/aggregating-multiple-requests/
 

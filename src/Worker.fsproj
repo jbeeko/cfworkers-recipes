@@ -4,11 +4,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="WorkerInterop.fs" />
-    <Compile Include="ModHeaders.fs" />
-    <Compile Include="Aggregating.fs" />
+    <Compile Include="AB-Testing.fs" />
+    <Compile Include="AggregatingMultRequests.fs" />
+    <Compile Include="AlterHeaders.fs" />
     <Compile Include="CountryBlocking.fs" />
     <Compile Include="TLSBlocking.fs" />
-    <Compile Include="AB-Testing.fs" />
     <Compile Include="Worker.fs" />
   </ItemGroup>
   <ItemGroup>

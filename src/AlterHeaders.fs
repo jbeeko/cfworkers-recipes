@@ -1,4 +1,4 @@
-module ModHeaders
+module AlterHeaders
 // FSharp implementation of the Altering Headers recipe.
 // https://developers.cloudflare.com/workers/recipes/altering-headers/
 

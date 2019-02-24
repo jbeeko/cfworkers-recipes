@@ -8,8 +8,8 @@ open WorkersInterop
 // route variables, and subroutes. 
 let rec private routeRequest verb path req =
   match (verb, path) with
-  | _, ["aggregating"] -> Aggregating.fetchAndApply req
-  | _, ["headers"] -> ModHeaders.handleRequest req
+  | _, ["aggregating"] -> AggregatingMultRequests.fetchAndApply req
+  | _, ["headers"] -> AlterHeaders.handleRequest req
   | _, ["counrty-blocking"] -> CountryBlocking.blockCountries req
   | _, ["tls-blocking"] -> TLSBlocking.sslBlock req
   | _,_ -> noHandler req
